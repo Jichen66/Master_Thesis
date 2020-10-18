@@ -1,5 +1,7 @@
 # Master_Thesis
 Topic: Modification of YOLOv3(Keras) for object distance estimation  
+(original model: https://github.com/qqwweee/keras-yolo3)  
+
 Methods:  
 1.Modify the output of YOLOv3 by adding a predicted distance variable at each prediction layer.   
 2.Meanwhile, modify the original YOLOv3 loss function by adding a distance loss function (here I tried MAE,MSE,RMSE. MAE is the best among them).  
