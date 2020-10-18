@@ -4,7 +4,7 @@ Methods:
 1.Modify the output of YOLOv3 by adding a predicted distance variable at each prediction layer.   
 2.Meanwhile, modify the original YOLOv3 loss function by adding a distance loss function (here I tried MAE,MSE,RMSE. MAE is the best among them).  
 3.Retrain the modified model by main using processed public KITTI dataset and inhouse SMART dataset. (Transfer Learning, Finetune...)  
-4.Evaluation: judge the performance of object detection and distance estimation separately.  
+4.Evaluation: judge the performance of object detection (metrics of TP, PR curve, mAP) and distance estimation separately.  
 
 Some test examples are shown here:  
 ![testimage_kitti1](https://github.com/Jichen66/Master_Thesis/blob/master/result_images/result_007022.png)
